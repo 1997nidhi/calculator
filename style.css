@@ -1,0 +1,40 @@
+body{
+    background-color: lightgray;
+    height: 100vh;
+
+}
+header{
+   text-align: center;
+   background-color: #804000;
+   padding: 5px;
+   color: white;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+input{
+    margin:40px;
+    padding:20px;
+    font-size: 25px;
+
+}
+.buttons{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 7px;
+    background-color: #cc6600;
+    margin: 60px ;
+}
+button{
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+button:hover{
+    background: #ffc34d;
+}
